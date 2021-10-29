@@ -17,16 +17,37 @@
   }
   .list {
     width: 421px;
-    color: #FFFFFF;
-    font-weight: 700 bold;
+    color: #ffffff;
+    font-size: 20px;
   }
+
   ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  .teiaHeader{
-    margin-left: 400px;
-    
+  li:hover {
+    font-size: 20;
+    font-weight: bold;
+  }
+
+  .groupRigth {
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    align-items: center;
+
+    button {
+      width: 165px;
+      height: 49px;
+      position: absolute;
+      right: 70px;
+
+      border: 1px solid #ffffff;
+      border-radius: 30px;
+
+      font-size: 20px;
+      color: #ffffff;
+    }
   }
 }

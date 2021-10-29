@@ -19,7 +19,11 @@ export function Header() {
         </ul>
       </div>
 
-      <img src={teiaHeader} alt="" className={styles.teiaHeader} />
+      <div className={styles.groupRigth}>
+        <button>Reserve</button>
+
+        <img src={teiaHeader} alt="" className={styles.teiaHeader} />
+      </div>
     </div>
   );
 }
