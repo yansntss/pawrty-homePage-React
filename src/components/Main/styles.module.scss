@@ -8,12 +8,12 @@ main {
     margin-left: 49px;
     margin-top: 70px;
     .text :first-child {
-      font-size: 86px;
+      font-size: 76px;
       font-weight: bold;
       line-height: 90px;
     }
     span {
-      font-size: 48px;
+      font-size: 40px;
       font-weight: bold;
     }
     .txtImgs {
@@ -35,7 +35,7 @@ main {
     flex-direction: column;
 
     width: 635px;
-    margin-top: 60px;
+    margin-top: 40px;
 
     font-style: normal;
     font-weight: 600;
@@ -76,29 +76,28 @@ main {
     right: 1400px;
 
     .imagemFundo {
-      width: 465px;
-      height: 562px;
+      width: 365px;
+      height: 462px;
       position: absolute;
 
-      left: 905px;
+      left: 980px;
       top: 143px;
     }
     .imagemFrente {
       width: 323px;
-      height: 465px;
+      height: 420px;
       position: absolute;
-      left: 720px;
-      top: 331px;
+      left: 770px;
+      top: 300px;
     }
     p {
       position: absolute;
       width: 309px;
       height: 54.8px;
-      left: 1061px;
-      top: 723px;
-
-      font-size: 45.665px;
-      line-height: 55px; 
+      left: 1095px;
+      top: 628px;
+      font-size: 38px;
+      line-height: 55px;
       span{
         font-weight: 800;
       
